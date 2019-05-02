@@ -1,9 +1,6 @@
 ## Overview
 
-The proposed solution is a handful example of the good usage of BDD against front-end web application.
-For this purpose, I have selected http://check24.de as it is very well known in Germany.
-
-Both [Cucumber](https://cucumber.io/) and [Capybara](http://jnicklas.github.io/capybara/) are used here.
+The proposed solution is a handful example of the good usage of BDD against android application with the usage of [Cucumber](https://cucumber.io/) and [Calabash](http://github.com/calabash/calabash-android)
 
 
 ### Installation
@@ -39,7 +36,7 @@ bundle install
 ### Tests
 
 #### Running e2e tests
-The tools used to run e2e tests are [Cucumber](https://cucumber.io/) and [Calabash](http://jnicklas.github.io/capybara/). Configuration file `application.yml` is located in the project root. To run test execute the following command:
+The tools used to run e2e tests are [Cucumber](https://cucumber.io/) and [Calabash](http://github.com/calabash/calabash-android). Configuration file `application.yml` is located in the project root. To run test execute the following command:
 ```
 bundle exec calabash-android run apk/app-debug.apk -p android
 ```
